@@ -1,0 +1,25 @@
+.appbar {
+    background-color: white !important;
+    box-shadow: none !important;
+    z-index: 100;
+    padding: 0.5rem 0 0;
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    margin: auto;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: var(--color-light) !important;
+}
+
+.active {
+    color: var(--color-primary) !important;
+    font-weight: 600;
+}

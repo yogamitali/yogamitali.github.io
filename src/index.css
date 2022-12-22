@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-light-alt: #EDEAE5;
+  --color-light: #B3E0CB;
+  --color-primary: #69A88D;
+  --color-dark: #176560;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 78%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0.5rem;
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+@font-face {
+  font-family: 'Reforma';
+  src: url(../public/fonts/reforma.1918-blanca.ttf) format('truetype');
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Reforma',sans-serif !important;
+}
+
+/* ---- Custom Scrollbar ---- */
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: white;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-clip: content-box;
+  background-color: #9BDEC1;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-light-alt);
+}
+.scroll {
+  display: block;
+}
+
+/* ----- General Styles ----- */
+.d-none {
+  display: none;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+a, .link {
+  background-color: inherit;
+  cursor: pointer;
+  color: var(--color-dark);
+  transition: var(--transition);
+}
+
+a:hover, .link:hover {
+  color: var(--color-primary);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-dark);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-dark);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-light);
+  color: var(--color-primary);
+  border-color: transparent;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  color: var(--color-dark);
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.title::after{
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 1px solid var(--color-dark);
+}
+
+/* ----- Media Queries (tablets) ----- */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ----- Media Queries (phones) ----- */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}

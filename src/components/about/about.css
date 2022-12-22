@@ -1,0 +1,122 @@
+#about {
+    padding: 0;
+}
+
+.welcome-about {
+    margin: auto;
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+}
+
+.welcome-about .title {
+    margin-bottom: 2rem;
+}
+
+.welcome-about .text {
+    width: 60%;
+    text-align: justify;
+    text-align-last: center;
+    margin: 1rem auto !important;
+    color: gray;
+}
+
+.welcome-about .text b {
+    color: var(--color-primary);
+}
+
+.instructor-grid {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-light-alt);
+}
+
+.hero-img {
+    max-width: 80%;
+    margin: auto;
+    object-fit: contain;
+}
+.hero-caption {
+    padding-right: 6.5rem;
+    padding-left: 2rem;
+}
+.hero-caption .title {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.hero-caption .title::after {
+    width: 0;
+}
+.hero-caption .text {
+    text-align: justify;
+    color: var(--color-dark);
+}
+
+.philosophy-grid {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.philosophy-grid .title {
+    margin: 2rem 0;
+}
+
+.philosophy-grid .text{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    text-align-last: center;
+    color: var(--color-dark);
+    padding-bottom: 3rem;
+}
+
+.philosophy-btn-container {
+    padding: 0 0.5rem 2rem;
+}
+
+.philosophy-btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color-light-alt) !important;
+    color: var(--color-dark) !important;
+}
+
+.philosophy-btn:hover {
+    background-color: #3F8984 !important;
+    color: white !important;
+}
+
+.philosophy-btn img {
+    height: 3rem;
+    width: auto;
+}
+
+.philosophy-btn .caption {
+    padding-top: 1rem;
+    text-transform: none;
+}
+
+.phil-tooltip {
+    max-width: 24%;
+    margin: auto;
+}
+
+.cert-gallery .title {
+    margin: 2rem auto;
+}
+
+.open {
+    margin-top: 12rem;
+}
+
+.cert-gallery .image-gallery-slide-wrapper {
+    background-color: #B3E0CB80;
+}
+
+.cert-gallery .image-gallery-image {
+    height: calc(100vh - 15rem) !important;
+}
+
+.cert-gallery .image-gallery-description {
+    font-size: 28px;
+}

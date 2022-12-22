@@ -1,0 +1,31 @@
+#footer {
+    padding-bottom: 0;
+    background-color: var(--color-light-alt);
+}
+
+.footer-container {
+    padding-bottom: 4rem;
+}
+
+.footer-logo {
+    margin: auto;
+}
+
+.footer-logo img {
+    height: 5rem;
+    width: auto;
+    margin: auto;
+}
+
+.link-holder {
+    padding-left: 5.5rem;
+    display: flex;
+    flex-direction: column !important;
+    gap: 1.5rem;
+}
+
+.link-holder .link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
