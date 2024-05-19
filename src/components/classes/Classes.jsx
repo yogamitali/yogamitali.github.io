@@ -46,10 +46,10 @@ const Classes = () => {
                 <Grid xs={12} md={6} style={{ padding: '0 0.5rem' }}>
                   <div style={{ paddingBottom: '3rem' }}>
                     <Typography variant='h4'>
-                      3:30 PM IST
+                      4:00 PM CET/ 7:30 PM IST
                     </Typography>
                     <Typography variant='h4'>
-                      Yoga for International citizens
+                      Yoga for Women
                     </Typography>
                   </div>
                   <Typography sx={{ padding: '0 2rem 0 0.5rem' }}>
