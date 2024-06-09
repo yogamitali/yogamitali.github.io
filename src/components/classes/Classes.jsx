@@ -53,7 +53,7 @@ const Classes = () => {
                     </Typography>
                   </div>
                   <Typography sx={{ padding: '0 2rem 0 0.5rem' }}>
-                    For our friends around the world. Currently we have participants from New Zealand, Australia and Canada.
+                    For our friends around the world. Currently we have participants from India, Europe, Australia and Canada.
                   </Typography>
                   <Typography sx={{ padding: '0.5rem 2rem 0 0.5rem' }}>
                     Hope to see you there too :)
