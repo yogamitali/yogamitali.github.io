@@ -20,7 +20,7 @@ const Classes = () => {
                 <Grid xs={12} md={6} style={{ padding: '0 0.5rem' }}>
                   <div style={{ paddingBottom: '3rem' }}>
                     <Typography variant='h4'>
-                      12:30 PM CET
+                      12:30 PM CET/ 4:00 PM IST
                     </Typography>
                     <Typography variant='h4'>
                       Yoga for well-being
@@ -46,7 +46,7 @@ const Classes = () => {
                 <Grid xs={12} md={6} style={{ padding: '0 0.5rem' }}>
                   <div style={{ paddingBottom: '3rem' }}>
                     <Typography variant='h4'>
-                      4:00 PM CET/ 7:30 PM IST
+                      4:00 PM CET / 7:30 PM IST
                     </Typography>
                     <Typography variant='h4'>
                       Yoga for Women
