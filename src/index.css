@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -31,13 +35,17 @@ body {
   line-height: 1.7;
 }
 
+section {
+  padding: 4rem 0;
+}
+
 @font-face {
   font-family: 'Reforma';
   src: url(../public/fonts/reforma.1918-blanca.ttf) format('truetype');
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Reforma',sans-serif !important;
+  font-family: 'Reforma',sans-serif;
 }
 
 /* ---- Custom Scrollbar ---- */
@@ -61,27 +69,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* ----- General Styles ----- */
-.d-none {
-  display: none;
-}
 
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-}
-
-section {
-  padding: 6rem 0;
-}
-
-a, .link {
+a {
   background-color: inherit;
   cursor: pointer;
   color: var(--color-dark);
   transition: var(--transition);
 }
 
-a:hover, .link:hover {
+a:hover {
   color: var(--color-primary);
 }
 
@@ -124,24 +120,43 @@ img {
   border-bottom: 1px solid var(--color-dark);
 }
 
-/* ----- Media Queries (tablets) ----- */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
 
-  section {
-    margin-top: 6rem;
-  }
+.image-gallery {
+  width: 100%;
+  margin: auto;
+}
+.image-gallery-index {
+  display: none;
 }
 
-/* ----- Media Queries (phones) ----- */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
+.image-gallery-image {
+  height: calc(100vh - 9rem) !important;
+}
 
-  section > h2 {
-    margin-bottom: 2rem;
-  }
+.image-gallery-description {
+  left: 50% !important;
+  bottom: 0 !important;
+  transform: translateX(-50%);
+  font-family: 'Seaside',sans-serif;
+  font-size: 24px;
+}
+
+.image-gallery-icon {
+  filter: none;
+}
+
+.image-gallery-icon:hover {
+  color: var(--color-light);
+}
+
+.image-gallery-icon:focus {
+  outline: none !important;
+}
+
+.image-gallery-thumbnails-container {
+  display: none;
+}
+
+.fullscreen .image-gallery-thumbnails-container {
+  display: block;
 }

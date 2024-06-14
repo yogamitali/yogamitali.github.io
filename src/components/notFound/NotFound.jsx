@@ -1,23 +1,23 @@
 import React from 'react'
-import { Grid, Typography } from '@mui/material'
+import { Typography } from "@material-tailwind/react"
 
 
 const NotFound = () => {
   return (
     <section id='notFound'>
-      <Grid container>
-        <Grid xs={12} md={6} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-          <Typography variant='h3' margin='0 8rem 2rem'>
+      <div className='flex flex-col lg:flex-row justify-center mx-12 lg:mx-24'>
+        <div className='flex flex-col justify-center'>
+          <Typography variant='h3' className='mb-4 lg:mb-8'>
             Something's not right.
           </Typography>
-          <Typography margin='0 8rem 0.25rem'>
+          <Typography className=''>
             The page you're looking for was not found. You seem to have lost your way, but don't worry. Sometimes, we all need a guide.
           </Typography>
-        </Grid>
-        <Grid xs={12} md={6}>
-          <img src='images/404.svg' style={{height: '25rem'}} alt='404 page not found' />
-        </Grid>
-      </Grid>
+        </div>
+        <div className='ml-8 lg:ml-16'>
+          <img src='images/404.svg' className='max-h-[25rem]' alt='404 page not found' />
+        </div>
+      </div>
     </section>
   )
 }

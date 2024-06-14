@@ -8,6 +8,9 @@ import './about.css'
 
 
 const About = () => {
+
+  const [isOpen, setIsOpen] = useState(0);
+
   const images = [
     {
       original: 'images/certificates/receive2.jpeg',
@@ -44,8 +47,6 @@ const About = () => {
     }
   ]
 
-  const [isOpen, setIsOpen] = useState(0);
-
   return (
     <section id='about'>
       
@@ -54,16 +55,16 @@ const About = () => {
           About YogaMitali
         </Typography>
         <Typography className='text'>
-            <b>YogaMitali</b> is a private Yoga Centre which has been running around the Globe for more than 6 years. It is an Online Platform providing general Yoga classes and Therapy classes in Groups to almost all ages.
+            <b>Yogamitali</b> is a private Yoga Centre which has been running around the Globe for more than 5 years. It is basically an Online Platform providing general Yoga classes in Groups, Individual, Therapy Classes to almost all age groups.
         </Typography>
         <Typography className='text'>
-            The owner of YogaMitali is Mrs. <b>Maitreyee Sharma</b>. She holds 3 post graduate degrees in English, Educational Management and Yogic Scences. She is a Certified Yoga Instructor from the renowned Institute S-Vyasa, Bengaluru, India. She is also a certified Pre and Post Natal Yoga Instructor and a Life Time member of the Indian Yoga Association. She is also a certified Yoga Therapist and also a member of Asian Yoga Therapy Association.
+            The owner and the Instructor of YogaMitali is Mrs. <b>Maitreyee Sharma</b>, a Certified Yoga Instructor from a renowned Institute S-Vyasa, Bengaluru. She is also a certified Pre and Post Natal Yoga Instructor and a member of the Indian Yoga Association. She is presently in her final semester of M.Sc. Yoga from Tamil Nadu Physical Education and Sports University. She is also a certified Yoga Therapist under the Indian Yoga Association and Asian Yoga Therapy Association.
         </Typography>
         <Typography className='text'>
-          Since the past 6 years, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b>.
+          Since the past 5 years, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b> and <b>Elderly</b> population.
         </Typography>
         <Typography className='text'>
-          Countries where YogaMitali caters to are New Zealand, Australia, Canada, India and Europe. She tries her best to follow the <b>“Classical School of Yoga”</b>. In the present world Yoga has entered into the Glamour Industry. Maitreyee continuously fights against this misappropriation of Yoga and shall continue working towards this aim.
+          Countries where YogaMitali caters to are New Zealand, Australia, Canada and India. She tries her best to follow the <b>“Classical School of Yoga”</b>. In the present world Yoga has entered into the Glamour Industry. Maitreyee continuously fights against this misappropriation of Yoga and shall continue working towards this aim.
         </Typography>
       </div>
 

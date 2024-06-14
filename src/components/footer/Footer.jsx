@@ -41,7 +41,7 @@ const Footer = () => {
             Connect
           </Typography>
           <button data-tip data-for='copy-ph' className='link'>
-            <i class='fa fa-phone fa-2x' aria-hidden='true'></i>
+            <i className='fa fa-phone fa-2x' aria-hidden='true'></i>
             <Typography>
               +91 99967 09419
             </Typography>
@@ -57,7 +57,7 @@ const Footer = () => {
           </ReactTooltip>
 
           <button data-tip data-for='copy-em' className='link'>
-            <i class='fa fa-envelope fa-2x' aria-hidden='true'></i>
+            <i className='fa fa-envelope fa-2x' aria-hidden='true'></i>
             <Typography>
               yogawithms@gmail.com
             </Typography>
@@ -77,7 +77,7 @@ const Footer = () => {
             Follow
           </Typography>
           <a className='link' href='https://www.youtube.com/channel/UC9Hh-ujTPpln8eVQc0oVpmw' target='blank'>
-            <i class='fa fa-youtube fa-2x' aria-hidden='true'></i>
+            <i className='fa fa-youtube fa-2x' aria-hidden='true'></i>
             <Typography>
               Yoga Mitali
             </Typography>
