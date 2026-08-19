@@ -34,14 +34,14 @@ const Footer = () => {
     <section id='footer'>
       <Grid container className='footer-container'>
         <Grid xs={12} md={4} className='footer-logo'>
-          <img src='images/logo.png' alt='Yogamitali Logo' />
+          <img src='/images/logo.png' alt='Yogamitali Logo' />
         </Grid>
         <Grid xs={6} md={4} className='link-holder'>
           <Typography variant='h6'>
             Connect
           </Typography>
           <button data-tip data-for='copy-ph' className='link'>
-            <i className='fa fa-phone fa-2x' aria-hidden='true'></i>
+            <i class='fa fa-phone fa-2x' aria-hidden='true'></i>
             <Typography>
               +91 99967 09419
             </Typography>
@@ -57,7 +57,7 @@ const Footer = () => {
           </ReactTooltip>
 
           <button data-tip data-for='copy-em' className='link'>
-            <i className='fa fa-envelope fa-2x' aria-hidden='true'></i>
+            <i class='fa fa-envelope fa-2x' aria-hidden='true'></i>
             <Typography>
               yogawithms@gmail.com
             </Typography>
@@ -77,14 +77,14 @@ const Footer = () => {
             Follow
           </Typography>
           <a className='link' href='https://www.youtube.com/channel/UC9Hh-ujTPpln8eVQc0oVpmw' target='blank'>
-            <i className='fa fa-youtube fa-2x' aria-hidden='true'></i>
+            <i class='fa fa-youtube fa-2x' aria-hidden='true'></i>
             <Typography>
               Yoga Mitali
             </Typography>
           </a>
         </Grid>
       </Grid>
-      <Typography textAlign='center'>© YogaMitali 2022. All Rights Reserved.</Typography>
+      <Typography textAlign='center'>© YogaMitali 2026. All Rights Reserved.</Typography>
       <Typography fontSize='0.75rem' textAlign='end' paddingRight='1rem'>
         Made with ❤ by <a href={'https://github.com/Awe42'} target='_blank' rel='noreferrer'>Awe42</a>
       </Typography>

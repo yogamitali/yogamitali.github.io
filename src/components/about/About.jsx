@@ -8,44 +8,43 @@ import './about.css'
 
 
 const About = () => {
-
-  const [isOpen, setIsOpen] = useState(0);
-
   const images = [
     {
-      original: 'images/certificates/receive2.jpeg',
+      original: '/images/certificates/receive2.jpeg',
       description: 'Receiving the Yoga Instructor Course certificate',
       originalAlt: 'Receiving the Yoga Instructor Course certificate'
     },
     {
-      original: 'images/certificates/receive1.jpg',
+      original: '/images/certificates/receive1.jpg',
       description: 'Pre-natal and post-natal yoga certification',
       originalAlt: 'Pre-natal and post-natal yoga certification'
     },
     {
-      original: 'images/certificates/cert7.jpg',
+      original: '/images/certificates/cert7.jpg',
       description: 'Member of Indian Yoga Association',
       originalAlt: 'Member of Indian Yoga Association'
     },
     {
-      original: 'images/certificates/cert5.png'
+      original: '/images/certificates/cert5.png'
     },
     {
-      original: 'images/certificates/cert6.png'
+      original: '/images/certificates/cert6.png'
     },
     {
-      original: 'images/certificates/cert4.png'
+      original: '/images/certificates/cert4.png'
     },
     {
-      original: 'images/certificates/cert3.png'
+      original: '/images/certificates/cert3.png'
     },
     {
-      original: 'images/certificates/cert2.png'
+      original: '/images/certificates/cert2.png'
     },
     {
-      original: 'images/certificates/cert1.png'
+      original: '/images/certificates/cert1.png'
     }
   ]
+
+  const [isOpen, setIsOpen] = useState(0);
 
   return (
     <section id='about'>
@@ -55,22 +54,22 @@ const About = () => {
           About YogaMitali
         </Typography>
         <Typography className='text'>
-            <b>Yogamitali</b> is a private Yoga Centre which has been running around the Globe for more than 5 years. It is basically an Online Platform providing general Yoga classes in Groups, Individual, Therapy Classes to almost all age groups.
+            <b>YogaMitali</b> is a private Yoga Centre which has been running around the Globe for more than 6 years. It is an Online Platform providing general Yoga classes and Therapy classes in Groups to almost all ages.
         </Typography>
         <Typography className='text'>
-            The owner and the Instructor of YogaMitali is Mrs. <b>Maitreyee Sharma</b>, a Certified Yoga Instructor from a renowned Institute S-Vyasa, Bengaluru. She is also a certified Pre and Post Natal Yoga Instructor and a member of the Indian Yoga Association. She is presently in her final semester of M.Sc. Yoga from Tamil Nadu Physical Education and Sports University. She is also a certified Yoga Therapist under the Indian Yoga Association and Asian Yoga Therapy Association.
+            The owner of YogaMitali is Mrs. <b>Maitreyee Sharma</b>. Maitreyee holds 3 post graduate degrees in English, Educational Management and Yogic Sciences. She is a Certified Yoga Instructor from the renowned Institute S-Vyasa, Bengaluru, India. She is also a certified Pre and Post Natal Yoga Instructor and a Life Time member of the Indian Yoga Association. Maitreyee has obtained her certification in Yoga Therapy too and is now a member of Asian Yoga Therapy Association.
         </Typography>
         <Typography className='text'>
-          Since the past 5 years, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b> and <b>Elderly</b> population.
+          Since the past 6 years, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b>.
         </Typography>
         <Typography className='text'>
-          Countries where YogaMitali caters to are New Zealand, Australia, Canada and India. She tries her best to follow the <b>“Classical School of Yoga”</b>. In the present world Yoga has entered into the Glamour Industry. Maitreyee continuously fights against this misappropriation of Yoga and shall continue working towards this aim.
+          Countries where YogaMitali caters to are New Zealand, Australia, Canada, India and Europe. She tries her best to follow the <b>“Classical School of Yoga”</b>. In the present world Yoga has entered into the Glamour Industry. Maitreyee continuously fights against this misappropriation of Yoga and shall continue working towards this aim.
         </Typography>
       </div>
 
       <Grid container className='instructor-grid'>
         <Grid xs={12} md={6}>
-          <img src='images/hero.png' className='hero-img' alt={'YogaMitali instructor Maitreyee Sharma'} />
+          <img src='/images/hero.png' className='hero-img' alt={'YogaMitali instructor Maitreyee Sharma'} />
         </Grid>
         <Grid xs={12} md={6} className='hero-caption'>
           <Typography variant='h3' className='title'>
@@ -94,7 +93,7 @@ const About = () => {
 
         <Grid xs={6} md={3} className='philosophy-btn-container'>
           <Button data-tip data-for='raja' className='philosophy-btn'>
-            <img src='images/raja.png' alt='Raja Yoga'/>
+            <img src='/images/raja.png' alt='Raja Yoga'/>
             <Typography variant='h5' className='caption'>
               Raja Yoga
             </Typography>
@@ -108,7 +107,7 @@ const About = () => {
 
         <Grid xs={6} md={3} className='philosophy-btn-container'>
           <Button data-tip data-for='jnana' className='philosophy-btn'>
-            <img src='images/jnana.png' alt='Jnana Yoga'/>
+            <img src='/images/jnana.png' alt='Jnana Yoga'/>
             <Typography variant='h5' className='caption'>
               Jnana Yoga
             </Typography>
@@ -122,7 +121,7 @@ const About = () => {
 
         <Grid xs={6} md={3} className='philosophy-btn-container'>
           <Button data-tip data-for='bhakti' className='philosophy-btn'>
-            <img src='images/bhakti.png' alt='Bhakti Yoga'/>
+            <img src='/images/bhakti.png' alt='Bhakti Yoga'/>
             <Typography variant='h5' className='caption'>
               Bhakti Yoga
             </Typography>
@@ -136,7 +135,7 @@ const About = () => {
 
         <Grid xs={6} md={3} className='philosophy-btn-container'>
           <Button data-tip data-for='karma' className='philosophy-btn'>
-            <img src='images/karma.png' alt='Karma Yoga' style={{borderRadius: '50%'}}/>
+            <img src='/images/karma.png' alt='Karma Yoga' style={{borderRadius: '50%'}}/>
             <Typography variant='h5' className='caption'>
               Karma Yoga
             </Typography>

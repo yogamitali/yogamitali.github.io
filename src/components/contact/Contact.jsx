@@ -20,6 +20,8 @@ const Contact = props => {
 
   const [sent, setSent] = useState(false);
 
+  const [failed, setFailed] = useState(false);
+
   const validate = (fieldValues = values) => {
     let temp = { ...errors }
 
@@ -68,9 +70,13 @@ const Contact = props => {
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           setSent(true);
+          setFailed(false);
           setValues(initialFormValues);
       }, (error) => {
+          // Never fail silently -- an enquiry we cannot deliver must still tell the
+          // visitor how to reach us, or we lose them without ever knowing.
           setSent(false);
+          setFailed(true);
           console.log(error.text);
       });
   };
@@ -133,6 +139,11 @@ const Contact = props => {
         </Button>
         <Typography style={{color: 'var(--color-primary)', display: sent ? 'inline-block' : 'none'}}>
           Message Sent!
+        </Typography>
+        <Typography role='alert' style={{color: '#A6331F', display: failed ? 'inline-block' : 'none'}}>
+          <b>Sorry &mdash; your message could not be sent.</b> Please email{' '}
+          <a href='mailto:yogawithms@gmail.com'>yogawithms@gmail.com</a> or call{' '}
+          <a href='tel:+919996709419'>+91 99967 09419</a> instead.
         </Typography>
       </form>
     </section>

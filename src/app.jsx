@@ -3,9 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './scrollToTop'
 import Nav from './components/nav/Nav'
 import Home from './components/home/Home'
+import About from './components/about/About'
 import Classes from './components/classes/Classes'
-import Testimonials from './components/testimonials/Testimonials'
+import { Testimonials } from './components/testimonials/Testimonials'
 import NotFound from './components/notFound/NotFound'
+import Footer from './components/footer/Footer'
 
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -17,10 +19,12 @@ const App = () => {
       <Nav />
       <Routes>
         <Route index element={<Home />} />
-        <Route path='/classes' element={<Classes long={true} />} />
-        <Route path='/testimonials' element={<Testimonials long={true} />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/classes' element={<Classes />} />
+        <Route path='/testimonials' element={<Testimonials />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
