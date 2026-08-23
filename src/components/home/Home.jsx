@@ -23,10 +23,10 @@ const Home = () => {
       thumbnail: '/images/gallery/leg up.jpg'
     },
     {
-      original: '/images/gallery/konark2.jpeg',
+      original: '/images/gallery/trikonasana.jpg',
       description: 'Try to perform, perfection is not the goal',
       originalAlt: 'Try to perform, perfection is not the goal',
-      thumbnail: '/images/gallery/konark2.jpeg'
+      thumbnail: '/images/gallery/trikonasana.jpg'
     },
     {
       original: '/images/gallery/debu and joy.jpg',
