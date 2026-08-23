@@ -84,13 +84,13 @@ const Home = () => {
           Welcome!
         </Typography>
         <Typography className='text'>
-            <b>YogaMitali</b> is a private Yoga Centre which has been running around the Globe for more than 5 years. It is basically an Online Platform providing general Yoga classes in Groups, Individual, Therapy Classes to almost all age groups.
+            <b>YogaMitali</b> is a private Yoga Centre which has been running around the Globe since 2019. It is basically an Online Platform providing general Yoga classes in Groups, Individual, Therapy Classes to almost all age groups.
         </Typography>
         <Typography className='text'>
-            The owner and the Instructor of YogaMitali is Mrs. <b>Maitreyee Sharma</b>, a Certified Yoga Instructor from a renowned Institute S-Vyasa, Bengaluru. She is also a certified Pre and Post Natal Yoga Instructor and a member of the Indian Yoga Association. She is presently in her final semester of M.Sc. Yoga from Tamil Nadu Physical Education and Sports University. She is also a certified Yoga Therapist under the Indian Yoga Association and Asian Yoga Therapy Association.
+            The owner and the Instructor of YogaMitali is Mrs. <b>Maitreyee Sharma</b>, a Certified Yoga Instructor from a renowned Institute S-Vyasa, Bengaluru. She is also a certified Pre and Post Natal Yoga Instructor and a member of the Indian Yoga Association. She holds an M.Sc. in Yoga from Tamil Nadu Physical Education and Sports University. She is also a certified Yoga Therapist under the Indian Yoga Association and Asian Yoga Therapy Association.
         </Typography>
         <Typography className='text'>
-          Since the past 5 years, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b> and <b>Elderly</b> population.
+          Since 2019, YogaMitali has been a friend to innumerable suffering Souls. Maitreyee has worked with people suffering from different variety of ailments - Cardiovascular problems, Brain Strokes, Neurological disorders like Muscular Sclerosis and Alzheimer’s, Foot Drop, Infertility issues, PCOD, Gastro-intestinal problems and so on. Her major area of work is with <b>Women</b> and <b>Elderly</b> population.
         </Typography>
         <Typography className='text'>
           Countries where YogaMitali caters to are New Zealand, Australia, Canada and India. She tries her best to follow the <b>“Classical School of Yoga”</b>. In the present world Yoga has entered into the Glamour Industry. Maitreyee continuously fights against this misappropriation of Yoga and shall continue working towards this aim.
